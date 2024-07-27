@@ -1,0 +1,688 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\fin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|d:\\fin\\fin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\feedbackshowcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\feedbackshowcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\initiatepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\initiatepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\initiatepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\initiatepurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\addmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\addmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\addmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\addmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\customizeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\customizeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\searchproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\searchproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\maintenancemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\maintenancemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\supplychainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\supplychainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\productionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\productionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\searchinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\searchinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\deleteinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\deleteinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\alertthreshold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\alertthreshold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\systemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\systemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\productionspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\productionspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\deletemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\deletemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\deletemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\deletemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\inventorymanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\inventorymanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\inventorymanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\inventorymanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editinventory.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editinventory.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|D:\\fin\\fin\\editmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8560CA58-F69E-45DA-BD44-2D887EC45455}|fin\\fin.csproj|solutionrelative:fin\\editmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\finBL\\finBL\\DL\\ManagerDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\finBL\\finBL\\DL\\MUserDLwithDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\Form3.cs",
+              "RelativeDocumentMoniker": "fin\\Form3.cs",
+              "ToolTip": "D:\\fin\\fin\\Form3.cs [Design]",
+              "RelativeToolTip": "fin\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:46:40.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\Form4.cs",
+              "RelativeDocumentMoniker": "fin\\Form4.cs",
+              "ToolTip": "D:\\fin\\fin\\Form4.cs [Design]",
+              "RelativeToolTip": "fin\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:45:56.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ManagerDL.cs",
+              "DocumentMoniker": "D:\\finBL\\finBL\\DL\\ManagerDL.cs",
+              "RelativeDocumentMoniker": "..\\finBL\\finBL\\DL\\ManagerDL.cs",
+              "ToolTip": "D:\\finBL\\finBL\\DL\\ManagerDL.cs",
+              "RelativeToolTip": "..\\finBL\\finBL\\DL\\ManagerDL.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwDYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:45:56.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MUserDLwithDB.cs",
+              "DocumentMoniker": "D:\\finBL\\finBL\\DL\\MUserDLwithDB.cs",
+              "RelativeDocumentMoniker": "..\\finBL\\finBL\\DL\\MUserDLwithDB.cs",
+              "ToolTip": "D:\\finBL\\finBL\\DL\\MUserDLwithDB.cs",
+              "RelativeToolTip": "..\\finBL\\finBL\\DL\\MUserDLwithDB.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAEwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:45:56.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\Program.cs",
+              "RelativeDocumentMoniker": "fin\\Program.cs",
+              "ToolTip": "D:\\fin\\fin\\Program.cs",
+              "RelativeToolTip": "fin\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:45:52.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\Form2.cs",
+              "RelativeDocumentMoniker": "fin\\Form2.cs",
+              "ToolTip": "D:\\fin\\fin\\Form2.cs",
+              "RelativeToolTip": "fin\\Form2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:45:56.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\Form3.cs",
+              "RelativeDocumentMoniker": "fin\\Form3.cs",
+              "ToolTip": "D:\\fin\\fin\\Form3.cs",
+              "RelativeToolTip": "fin\\Form3.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:46:42.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditOrder.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\EditOrder.cs",
+              "RelativeDocumentMoniker": "fin\\EditOrder.cs",
+              "ToolTip": "F:\\fin\\fin\\EditOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:52.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditOrder.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\EditOrder.cs",
+              "RelativeDocumentMoniker": "fin\\EditOrder.cs",
+              "ToolTip": "D:\\fin\\fin\\EditOrder.cs",
+              "RelativeToolTip": "fin\\EditOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:52.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FeedBackShowcase.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\FeedBackShowcase.cs",
+              "RelativeDocumentMoniker": "fin\\FeedBackShowcase.cs",
+              "ToolTip": "F:\\fin\\fin\\FeedBackShowcase.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\Form2.cs",
+              "RelativeDocumentMoniker": "fin\\Form2.cs",
+              "ToolTip": "D:\\fin\\fin\\Form2.cs [Design]",
+              "RelativeToolTip": "fin\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:45:56.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddOrder.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\AddOrder.cs",
+              "RelativeDocumentMoniker": "fin\\AddOrder.cs",
+              "ToolTip": "F:\\fin\\fin\\AddOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditProduct.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\EditProduct.cs",
+              "RelativeDocumentMoniker": "fin\\EditProduct.cs",
+              "ToolTip": "F:\\fin\\fin\\EditProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InitiatePurchase.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\InitiatePurchase.cs",
+              "RelativeDocumentMoniker": "fin\\InitiatePurchase.cs",
+              "ToolTip": "D:\\fin\\fin\\InitiatePurchase.cs",
+              "RelativeToolTip": "fin\\InitiatePurchase.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIAwwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InitiatePurchase.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\InitiatePurchase.cs",
+              "RelativeDocumentMoniker": "fin\\InitiatePurchase.cs",
+              "ToolTip": "F:\\fin\\fin\\InitiatePurchase.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\Customer.cs",
+              "RelativeDocumentMoniker": "fin\\Customer.cs",
+              "ToolTip": "D:\\fin\\fin\\Customer.cs",
+              "RelativeToolTip": "fin\\Customer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\Customer.cs",
+              "RelativeDocumentMoniker": "fin\\Customer.cs",
+              "ToolTip": "F:\\fin\\fin\\Customer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddManager.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\AddManager.cs",
+              "RelativeDocumentMoniker": "fin\\AddManager.cs",
+              "ToolTip": "F:\\fin\\fin\\AddManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddManager.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\AddManager.cs",
+              "RelativeDocumentMoniker": "fin\\AddManager.cs",
+              "ToolTip": "D:\\fin\\fin\\AddManager.cs",
+              "RelativeToolTip": "fin\\AddManager.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAcwHgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditManager.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\EditManager.cs",
+              "RelativeDocumentMoniker": "fin\\EditManager.cs",
+              "ToolTip": "F:\\fin\\fin\\EditManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditManager.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\EditManager.cs",
+              "RelativeDocumentMoniker": "fin\\EditManager.cs",
+              "ToolTip": "D:\\fin\\fin\\EditManager.cs",
+              "RelativeToolTip": "fin\\EditManager.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAiwEcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddProduct.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\AddProduct.cs",
+              "RelativeDocumentMoniker": "fin\\AddProduct.cs",
+              "ToolTip": "F:\\fin\\fin\\AddProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomizeOrder.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\CustomizeOrder.cs",
+              "RelativeDocumentMoniker": "fin\\CustomizeOrder.cs",
+              "ToolTip": "F:\\fin\\fin\\CustomizeOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SearchProduct.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\SearchProduct.cs",
+              "RelativeDocumentMoniker": "fin\\SearchProduct.cs",
+              "ToolTip": "F:\\fin\\fin\\SearchProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MaintenanceManager.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\MaintenanceManager.cs",
+              "RelativeDocumentMoniker": "fin\\MaintenanceManager.cs",
+              "ToolTip": "F:\\fin\\fin\\MaintenanceManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SupplyChainManager.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\SupplyChainManager.cs",
+              "RelativeDocumentMoniker": "fin\\SupplyChainManager.cs",
+              "ToolTip": "D:\\fin\\fin\\SupplyChainManager.cs",
+              "RelativeToolTip": "fin\\SupplyChainManager.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductionManager.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\ProductionManager.cs",
+              "RelativeDocumentMoniker": "fin\\ProductionManager.cs",
+              "ToolTip": "D:\\fin\\fin\\ProductionManager.cs",
+              "RelativeToolTip": "fin\\ProductionManager.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAgwDcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteInventory.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\DeleteInventory.cs",
+              "RelativeDocumentMoniker": "fin\\DeleteInventory.cs",
+              "ToolTip": "D:\\fin\\fin\\DeleteInventory.cs",
+              "RelativeToolTip": "fin\\DeleteInventory.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SearchInventory.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\SearchInventory.cs",
+              "RelativeDocumentMoniker": "fin\\SearchInventory.cs",
+              "ToolTip": "D:\\fin\\fin\\SearchInventory.cs",
+              "RelativeToolTip": "fin\\SearchInventory.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAqwEYAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditInventory.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\EditInventory.cs",
+              "RelativeDocumentMoniker": "fin\\EditInventory.cs",
+              "ToolTip": "D:\\fin\\fin\\EditInventory.cs",
+              "RelativeToolTip": "fin\\EditInventory.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AlertThreshold.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\AlertThreshold.cs",
+              "RelativeDocumentMoniker": "fin\\AlertThreshold.cs",
+              "ToolTip": "D:\\fin\\fin\\AlertThreshold.cs",
+              "RelativeToolTip": "fin\\AlertThreshold.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwD8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductionSpeed.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\ProductionSpeed.cs",
+              "RelativeDocumentMoniker": "fin\\ProductionSpeed.cs",
+              "ToolTip": "D:\\fin\\fin\\ProductionSpeed.cs",
+              "RelativeToolTip": "fin\\ProductionSpeed.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwE0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SystemConfiguration.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\SystemConfiguration.cs",
+              "RelativeDocumentMoniker": "fin\\SystemConfiguration.cs",
+              "ToolTip": "D:\\fin\\fin\\SystemConfiguration.cs",
+              "RelativeToolTip": "fin\\SystemConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserManagement.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\UserManagement.cs",
+              "RelativeDocumentMoniker": "fin\\UserManagement.cs",
+              "ToolTip": "F:\\fin\\fin\\UserManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EditOrder.Designer.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\EditOrder.Designer.cs",
+              "RelativeDocumentMoniker": "fin\\EditOrder.Designer.cs",
+              "ToolTip": "D:\\fin\\fin\\EditOrder.Designer.cs",
+              "RelativeToolTip": "fin\\EditOrder.Designer.cs",
+              "ViewState": "AQIAACoBAAAAAAAAAAAowDIBAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-06-29T19:45:56.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DeleteManager.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\DeleteManager.cs",
+              "RelativeDocumentMoniker": "fin\\DeleteManager.cs",
+              "ToolTip": "F:\\fin\\fin\\DeleteManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DeleteManager.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\DeleteManager.cs",
+              "RelativeDocumentMoniker": "fin\\DeleteManager.cs",
+              "ToolTip": "D:\\fin\\fin\\DeleteManager.cs",
+              "RelativeToolTip": "fin\\DeleteManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwCIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InventoryManagement.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\InventoryManagement.cs",
+              "RelativeDocumentMoniker": "fin\\InventoryManagement.cs",
+              "ToolTip": "F:\\fin\\fin\\InventoryManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductManagement.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\ProductManagement.cs",
+              "RelativeDocumentMoniker": "fin\\ProductManagement.cs",
+              "ToolTip": "D:\\fin\\fin\\ProductManagement.cs",
+              "RelativeToolTip": "fin\\ProductManagement.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwDkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductManagement.cs [Design]",
+              "DocumentMoniker": "D:\\fin\\fin\\ProductManagement.cs",
+              "RelativeDocumentMoniker": "fin\\ProductManagement.cs",
+              "ToolTip": "F:\\fin\\fin\\ProductManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InventoryManagement.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\InventoryManagement.cs",
+              "RelativeDocumentMoniker": "fin\\InventoryManagement.cs",
+              "ToolTip": "D:\\fin\\fin\\InventoryManagement.cs",
+              "RelativeToolTip": "fin\\InventoryManagement.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAcwE4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserManagement.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\UserManagement.cs",
+              "RelativeDocumentMoniker": "fin\\UserManagement.cs",
+              "ToolTip": "D:\\fin\\fin\\UserManagement.cs",
+              "RelativeToolTip": "fin\\UserManagement.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowDsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-29T19:45:56.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EditInventory.Designer.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\EditInventory.Designer.cs",
+              "RelativeDocumentMoniker": "fin\\EditInventory.Designer.cs",
+              "ToolTip": "D:\\fin\\fin\\EditInventory.Designer.cs",
+              "RelativeToolTip": "fin\\EditInventory.Designer.cs",
+              "ViewState": "AQIAAEQBAAAAAAAAAAAAAEwBAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-06-29T19:45:56.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EditManager.Designer.cs",
+              "DocumentMoniker": "D:\\fin\\fin\\EditManager.Designer.cs",
+              "RelativeDocumentMoniker": "fin\\EditManager.Designer.cs",
+              "ToolTip": "D:\\fin\\fin\\EditManager.Designer.cs",
+              "RelativeToolTip": "fin\\EditManager.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-06-29T19:45:56.388Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

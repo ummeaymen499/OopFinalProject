@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8560CA58-F69E-45DA-BD44-2D887EC45455}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>fin</RootNamespace>
+    <AssemblyName>fin</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="finBL">
+      <HintPath>..\..\finBL\finBL\bin\Debug\finBL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInventory.Designer.cs">
+      <DependentUpon>AddInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddManager.Designer.cs">
+      <DependentUpon>AddManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrder.Designer.cs">
+      <DependentUpon>AddOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlertThreshold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlertThreshold.Designer.cs">
+      <DependentUpon>AlertThreshold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomizeOrder.Designer.cs">
+      <DependentUpon>CustomizeOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteInventory.Designer.cs">
+      <DependentUpon>DeleteInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteManager.Designer.cs">
+      <DependentUpon>DeleteManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteOrder.Designer.cs">
+      <DependentUpon>DeleteOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteProduct.Designer.cs">
+      <DependentUpon>DeleteProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditInventory.Designer.cs">
+      <DependentUpon>EditInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditManager.Designer.cs">
+      <DependentUpon>EditManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditOrder.Designer.cs">
+      <DependentUpon>EditOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProduct.Designer.cs">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBackShowcase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedBackShowcase.Designer.cs">
+      <DependentUpon>FeedBackShowcase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndustriaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IndustriaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InitiatePurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InitiatePurchase.Designer.cs">
+      <DependentUpon>InitiatePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryManagement.Designer.cs">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaintenanceManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaintenanceManager.Designer.cs">
+      <DependentUpon>MaintenanceManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductionManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductionManager.Designer.cs">
+      <DependentUpon>ProductionManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductionSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductionSpeed.Designer.cs">
+      <DependentUpon>ProductionSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductManagement.Designer.cs">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvideFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProvideFeedback.Designer.cs">
+      <DependentUpon>ProvideFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchInventory.Designer.cs">
+      <DependentUpon>SearchInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchManager.Designer.cs">
+      <DependentUpon>SearchManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchOrder.Designer.cs">
+      <DependentUpon>SearchOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchProduct.Designer.cs">
+      <DependentUpon>SearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplyChainManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplyChainManager.Designer.cs">
+      <DependentUpon>SupplyChainManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemConfiguration.Designer.cs">
+      <DependentUpon>SystemConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagement.Designer.cs">
+      <DependentUpon>UserManagement.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddInventory.resx">
+      <DependentUpon>AddInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddManager.resx">
+      <DependentUpon>AddManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrder.resx">
+      <DependentUpon>AddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertThreshold.resx">
+      <DependentUpon>AlertThreshold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeOrder.resx">
+      <DependentUpon>CustomizeOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteInventory.resx">
+      <DependentUpon>DeleteInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteManager.resx">
+      <DependentUpon>DeleteManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteOrder.resx">
+      <DependentUpon>DeleteOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteProduct.resx">
+      <DependentUpon>DeleteProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditInventory.resx">
+      <DependentUpon>EditInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditManager.resx">
+      <DependentUpon>EditManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditOrder.resx">
+      <DependentUpon>EditOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProduct.resx">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedBackShowcase.resx">
+      <DependentUpon>FeedBackShowcase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InitiatePurchase.resx">
+      <DependentUpon>InitiatePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryManagement.resx">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaintenanceManager.resx">
+      <DependentUpon>MaintenanceManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductionManager.resx">
+      <DependentUpon>ProductionManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductionSpeed.resx">
+      <DependentUpon>ProductionSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductManagement.resx">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ProvideFeedback.resx">
+      <DependentUpon>ProvideFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchInventory.resx">
+      <DependentUpon>SearchInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchManager.resx">
+      <DependentUpon>SearchManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchOrder.resx">
+      <DependentUpon>SearchOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchProduct.resx">
+      <DependentUpon>SearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplyChainManager.resx">
+      <DependentUpon>SupplyChainManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemConfiguration.resx">
+      <DependentUpon>SystemConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagement.resx">
+      <DependentUpon>UserManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="IndustriaDataSet.xsc">
+      <DependentUpon>IndustriaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IndustriaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IndustriaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IndustriaDataSet.xss">
+      <DependentUpon>IndustriaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three-engineers-standing-construction-site_74855-4658.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\constructing-tomorrow-glimpse-into-construction-worker-s-life_772298-19025.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-explore-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineers-team-discussing-issues-construction-site_74855-4786.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-04-17 173650.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineer-men-group-with-helmet-secure_24877-57279.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-04-17 173611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-concept-illustration_114360-739.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-render-secure-login-password-illustration_107791-16640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-username-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-role-66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-background-remover-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineers-team-discussing-issues-construction-site_74855-47861.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineer-men-group-with-helmet-secure_24877-572791.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\458_REpWIE1BUiAwODktMzA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-04-19 001928.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-notepad-user-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\458_REpWIE1BUiAwODktMDU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\constructing-tomorrow-glimpse-into-construction-worker-s-life_772298-190251.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-windows-update-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-notepad-user-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineers-team-discussing-issues-construction-site_74855-47862.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\construction-worker-with-construction-icons_24877-27249.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building-construction-engineering-construction-workers-engineers-helmets-construction-site-with-cranes-vector-eps-10_532800-1396.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\458_REpWIE1BUiAwODktMDU1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\professional-conditioning-services-repairs-regular-maintenance-flat-vector-illustration-banner-air-conditioner-repair-engineering-services-banner-template_605858-2305.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\website-maintenance-abstract-concept-vector-illustration-website-service-webpage-seo-maintenance-web-design-corporate-site-professional-support-security-analysis-update-abstract-metaphor_335657-2295.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-illustration-home-improvement-concept_53876-43040.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air-conditioning-repair-instalation-service-repairman-installing-examining-repairing-conditioner-with-special-tools-equipment-isolated-vector-illustration_613284-1785.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\construction-worker-with-construction-icons_24877-272491.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineers-team-discussing-issues-construction-site_74855-47863.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-machinery-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-budget-planning-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-circle-chart-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-budget-planning-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-budget-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bendy-industrial-robotics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bendy-gears-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\automobile-production-line-using-robots-work-smart-factories-3d-illustration-1300x650.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-illustration-home-improvement-concept_53876-43040 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bendy-industrial-robotics1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-man-carrying-wrench_112255-3897.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-explore-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-illustration-home-improvement-concept_53876-43040 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-goods-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-1788.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detailed-image-supply-chain-diagram-emphasizing-use-nearby-suppliers_216520-10778.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-drawn-flat-design-international-trade_23-2149180270.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-17881.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse-composition_1284-25348.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logistics-business-flat-concept-warehouse-worker-delivery-man-goods-crate-movement-process_126523-2207.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagram-supply-chain-management_1308-100127.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-17882.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineer-men-group-with-helmet-secure_24877-572792.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processing-concept-illustration_114360-410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product-quality-concept-illustration_114360-7461.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processing-concept-illustration_114360-4101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processing-concept-illustration_114360-4102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processing-concept-illustration_114360-4103.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shot-group-workers-conducting-mock-production-line-demonstrating-their-crossfunctional_216520-12641.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fertilizer-production-process-flat-vector-illustration-isolated-white-background_181313-4645.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-design-business-people-concept_122818-199.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\industrial-abstract-machine-flat-style-factory-construction-equipment-engineering_1284-42835.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\industrial-engineering-elements-set-flat-style_1284-47530.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building-construction-engineering-construction-workers-engineers-helmets-construction-site-with-cranes-vector-eps-10_532800-13961.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-machinery-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery-banner-set_1284-13055.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-design-business-people-concept_122818-1991.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy-is-attracting-buyers_118167-4765.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-56245.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-customer-service-week-illustration_23-2149621449.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\real-estate-development-set_74855-2479.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satisfaction-loyalty-customer-care-rating-site-concept_269730-792.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-business-concept-with-purchase-contract-symbols-flat-vector-illustration_1284-76939.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-handshake-deal-making-businessmen-shake-hands-vector-illustration-flat-design_131476-106.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-deal-concept-background_23-2148104844.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-562451.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satisfaction-loyalty-customer-care-rating-site-concept_269730-7921.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy-is-attracting-buyers_118167-47651.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-community_24877-51947.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-contract-agreement-website-template-flat-vector-illustration_605858-2601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-business-concept-with-purchase-contract-symbols-flat-vector-illustration_1284-769391.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy-is-attracting-buyers_118167-47652.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-562452.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-deal-concept-background_23-21481048441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\women-with-computer-ecommerce-technology-sale_24877-56059.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-deal-concept-background_23-21481048442.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-speed-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-feedback-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\construction-worker-with-construction-icons_24877-272492.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engineering-construction-illustration_23-2148891048.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-community_24877-519471.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\illustration-with-multitasking-concept_23-2148408832.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-speed-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-alert-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emotional-design-abstract-concept-illustration_335657-3821.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\risk-management-concept-illustration_114360-6957.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\risk-management-concept-illustration_114360-69571.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-concept-illustration_114360-1551.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\different-reactions-with-empty-space-wallpaper_79603-1030.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-explore-502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-issues-icon-3d-illustration-from-customer-relationship-collection-creative-customer-issues-3d-icon-web-design-templates-infographics-more_676904-890.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

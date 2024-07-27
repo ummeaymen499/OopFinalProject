@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icons8-notepad-user-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-notepad-user-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-56245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-56245.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login-concept-illustration_114360-739" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-concept-illustration_114360-739.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fertilizer-production-process-flat-vector-illustration-isolated-white-background_181313-4645" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fertilizer-production-process-flat-vector-illustration-isolated-white-background_181313-4645.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-person-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-person-64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-explore-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-explore-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-speed-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-speed-501.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-delete-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-delete-64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="processing-concept-illustration_114360-410" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\processing-concept-illustration_114360-410.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineers-team-discussing-issues-construction-site_74855-47861" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineers-team-discussing-issues-construction-site_74855-47861.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-goods-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-goods-64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-circle-chart-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-circle-chart-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-contract-agreement-website-template-flat-vector-illustration_605858-2601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-contract-agreement-website-template-flat-vector-illustration_605858-2601.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineers-team-discussing-issues-construction-site_74855-4786" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineers-team-discussing-issues-construction-site_74855-4786.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character-illustration-home-improvement-concept_53876-43040 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character-illustration-home-improvement-concept_53876-43040 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-business-concept-with-purchase-contract-symbols-flat-vector-illustration_1284-76939" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-business-concept-with-purchase-contract-symbols-flat-vector-illustration_1284-76939.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="industrial-engineering-elements-set-flat-style_1284-47530" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\industrial-engineering-elements-set-flat-style_1284-47530.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3d-render-secure-login-password-illustration_107791-16640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3d-render-secure-login-password-illustration_107791-16640.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="processing-concept-illustration_114360-4103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\processing-concept-illustration_114360-4103.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-cloud-alert-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-cloud-alert-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bendy-gears-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bendy-gears-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-notepad-user-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-notepad-user-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diagram-supply-chain-management_1308-100127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diagram-supply-chain-management_1308-100127.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="risk-management-concept-illustration_114360-6957" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\risk-management-concept-illustration_114360-6957.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2024-04-19 001928" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-04-19 001928.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="satisfaction-loyalty-customer-care-rating-site-concept_269730-7921" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\satisfaction-loyalty-customer-care-rating-site-concept_269730-7921.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-speed-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-speed-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy-is-attracting-buyers_118167-4765" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy-is-attracting-buyers_118167-4765.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-budget-planning-64 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-budget-planning-64 (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-budget-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-budget-64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="automobile-production-line-using-robots-work-smart-factories-3d-illustration-1300x650" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\automobile-production-line-using-robots-work-smart-factories-3d-illustration-1300x650.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character-illustration-home-improvement-concept_53876-43040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character-illustration-home-improvement-concept_53876-43040.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineer-men-group-with-helmet-secure_24877-57279" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineer-men-group-with-helmet-secure_24877-57279.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy-is-attracting-buyers_118167-47651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy-is-attracting-buyers_118167-47651.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineer-men-group-with-helmet-secure_24877-572792" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineer-men-group-with-helmet-secure_24877-572792.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-562452" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-562452.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineers-team-discussing-issues-construction-site_74855-47863" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineers-team-discussing-issues-construction-site_74855-47863.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="458_REpWIE1BUiAwODktMDU1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\458_REpWIE1BUiAwODktMDU1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-1788" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-1788.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emotional-design-abstract-concept-illustration_335657-3821" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotional-design-abstract-concept-illustration_335657-3821.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-business-concept-with-purchase-contract-symbols-flat-vector-illustration_1284-769391" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-business-concept-with-purchase-contract-symbols-flat-vector-illustration_1284-769391.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-search-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-search-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="product-quality-concept-illustration_114360-7461" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product-quality-concept-illustration_114360-7461.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="risk-management-concept-illustration_114360-69571" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\risk-management-concept-illustration_114360-69571.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warehouse-composition_1284-25348" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse-composition_1284-25348.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-list-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-list-64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-budget-planning-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-budget-planning-64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-username-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-username-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="online-community_24877-519471" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-community_24877-519471.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detailed-image-supply-chain-diagram-emphasizing-use-nearby-suppliers_216520-10778" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detailed-image-supply-chain-diagram-emphasizing-use-nearby-suppliers_216520-10778.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="constructing-tomorrow-glimpse-into-construction-worker-s-life_772298-19025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\constructing-tomorrow-glimpse-into-construction-worker-s-life_772298-19025.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character-illustration-home-improvement-concept_53876-43040 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character-illustration-home-improvement-concept_53876-43040 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logistics-business-flat-concept-warehouse-worker-delivery-man-goods-crate-movement-process_126523-2207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logistics-business-flat-concept-warehouse-worker-delivery-man-goods-crate-movement-process_126523-2207.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bendy-industrial-robotics1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bendy-industrial-robotics1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="constructing-tomorrow-glimpse-into-construction-worker-s-life_772298-190251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\constructing-tomorrow-glimpse-into-construction-worker-s-life_772298-190251.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-background-remover-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-background-remover-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineers-team-discussing-issues-construction-site_74855-47862" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineers-team-discussing-issues-construction-site_74855-47862.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="458_REpWIE1BUiAwODktMDU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\458_REpWIE1BUiAwODktMDU.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="458_REpWIE1BUiAwODktMzA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\458_REpWIE1BUiAwODktMzA.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-windows-update-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-windows-update-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="industrial-abstract-machine-flat-style-factory-construction-equipment-engineering_1284-42835" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\industrial-abstract-machine-flat-style-factory-construction-equipment-engineering_1284-42835.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-password-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-password-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shot-group-workers-conducting-mock-production-line-demonstrating-their-crossfunctional_216520-12641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shot-group-workers-conducting-mock-production-line-demonstrating-their-crossfunctional_216520-12641.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2024-04-17 173650" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-04-17 173650.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="professional-conditioning-services-repairs-regular-maintenance-flat-vector-illustration-banner-air-conditioner-repair-engineering-services-banner-template_605858-2305" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\professional-conditioning-services-repairs-regular-maintenance-flat-vector-illustration-banner-air-conditioner-repair-engineering-services-banner-template_605858-2305.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning-concept-illustration_114360-1551" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning-concept-illustration_114360-1551.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-role-66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-role-66.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="website-maintenance-abstract-concept-vector-illustration-website-service-webpage-seo-maintenance-web-design-corporate-site-professional-support-security-analysis-update-abstract-metaphor_335657-2295" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\website-maintenance-abstract-concept-vector-illustration-website-service-webpage-seo-maintenance-web-design-corporate-site-professional-support-security-analysis-update-abstract-metaphor_335657-2295.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boy-is-attracting-buyers_118167-47652" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boy-is-attracting-buyers_118167-47652.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat-customer-service-week-illustration_23-2149621449" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat-customer-service-week-illustration_23-2149621449.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-drawn-flat-design-international-trade_23-2149180270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-drawn-flat-design-international-trade_23-2149180270.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="three-engineers-standing-construction-site_74855-4658" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\three-engineers-standing-construction-site_74855-4658.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="satisfaction-loyalty-customer-care-rating-site-concept_269730-792" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\satisfaction-loyalty-customer-care-rating-site-concept_269730-792.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-562451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration_1150-562451.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-machinery-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-machinery-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery-banner-set_1284-13055" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery-banner-set_1284-13055.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="construction-worker-with-construction-icons_24877-272492" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\construction-worker-with-construction-icons_24877-272492.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-feedback-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-feedback-50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2024-04-17 173611" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-04-17 173611.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="construction-worker-with-construction-icons_24877-27249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\construction-worker-with-construction-icons_24877-27249.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="women-with-computer-ecommerce-technology-sale_24877-56059" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\women-with-computer-ecommerce-technology-sale_24877-56059.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="processing-concept-illustration_114360-4102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\processing-concept-illustration_114360-4102.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-explore-502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-explore-502.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineering-construction-illustration_23-2148891048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineering-construction-illustration_23-2148891048.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black-man-carrying-wrench_112255-3897" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-man-carrying-wrench_112255-3897.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="illustration-with-multitasking-concept_23-2148408832" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\illustration-with-multitasking-concept_23-2148408832.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bendy-industrial-robotics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bendy-industrial-robotics.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="different-reactions-with-empty-space-wallpaper_79603-1030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\different-reactions-with-empty-space-wallpaper_79603-1030.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-17881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-17881.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-deal-concept-background_23-2148104844" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-deal-concept-background_23-2148104844.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="building-construction-engineering-construction-workers-engineers-helmets-construction-site-with-cranes-vector-eps-10_532800-13961" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building-construction-engineering-construction-workers-engineers-helmets-construction-site-with-cranes-vector-eps-10_532800-13961.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-explore-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-explore-501.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="real-estate-development-set_74855-2479" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\real-estate-development-set_74855-2479.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-machinery-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-machinery-501.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineer-men-group-with-helmet-secure_24877-572791" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineer-men-group-with-helmet-secure_24877-572791.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat-design-business-people-concept_122818-1991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat-design-business-people-concept_122818-1991.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="processing-concept-illustration_114360-4101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\processing-concept-illustration_114360-4101.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-17882" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-logistics-abstract-concept-vector-illustration-smart-logistics-technologies-commercial-delivery-service-worldwide-business-transportation-global-product-shipment-abstract-metaphor_335657-17882.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat-design-business-people-concept_122818-199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat-design-business-people-concept_122818-199.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="building-construction-engineering-construction-workers-engineers-helmets-construction-site-with-cranes-vector-eps-10_532800-1396" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building-construction-engineering-construction-workers-engineers-helmets-construction-site-with-cranes-vector-eps-10_532800-1396.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-handshake-deal-making-businessmen-shake-hands-vector-illustration-flat-design_131476-106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-handshake-deal-making-businessmen-shake-hands-vector-illustration-flat-design_131476-106.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-deal-concept-background_23-21481048442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-deal-concept-background_23-21481048442.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-deal-concept-background_23-21481048441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-deal-concept-background_23-21481048441.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="online-community_24877-51947" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-community_24877-51947.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="air-conditioning-repair-instalation-service-repairman-installing-examining-repairing-conditioner-with-special-tools-equipment-isolated-vector-illustration_613284-1785" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\air-conditioning-repair-instalation-service-repairman-installing-examining-repairing-conditioner-with-special-tools-equipment-isolated-vector-illustration_613284-1785.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="construction-worker-with-construction-icons_24877-272491" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\construction-worker-with-construction-icons_24877-272491.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="customer-issues-icon-3d-illustration-from-customer-relationship-collection-creative-customer-issues-3d-icon-web-design-templates-infographics-more_676904-890" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer-issues-icon-3d-illustration-from-customer-relationship-collection-creative-customer-issues-3d-icon-web-design-templates-infographics-more_676904-890.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
